@@ -12,7 +12,6 @@ const [error,guardarError]= useState(false);
 
    const handleChange = e =>{
          //actualizar el state 
-
          guardarBusqueda({
              ...busqueda,
               [e.target.name]:e.target.value
